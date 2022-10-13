@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.grid-box {
+    border: 1px solid black;
+    background-color: #dcdcdc;
+} 
+
+.title {
+    font-size: 30px;
+    font-weight: 800;
+    color: blue;
+    margin-top: 1rem;
+}
+
+.btn {
+    display: flex;
+    gap: 20px;
+    margin: 2rem 0;
+}
+
+button {
+    background-color: #fff;
+    border: 2px solid black;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 8px;
+}
+
+.btn .reset-btn {
+    background-color: aqua;
+}
+
+.btn .black-btn {
+    background-color: aquamarine;
+}
+
+.btn .rainbow-btn {
+    background-color: antiquewhite;
+}
+
+.btn .size-btn {
+    background-color: bisque;
+}
+
+/* .grid-row {
+    display: flex;
+}
+
+.grid-box {
+    border: 1px solid black;
+    background-color: #dcdcdc;
+} */
